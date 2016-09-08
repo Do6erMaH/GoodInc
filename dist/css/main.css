@@ -389,3 +389,7 @@ nav {
               -o-box-shadow: 1px 1px 1px rgba(59,59,59,.2);
                  box-shadow: 1px 1px 1px rgba(59,59,59,.2);
 }
+.search::-webkit-input-placeholder {
+    font: bold 12px Arial, sans-serif;
+    color: #959595;
+}
