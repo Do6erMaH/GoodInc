@@ -95,7 +95,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+div {box-sizing:border-box;}
+.text-right {text-align: right;}
 
 
 
@@ -313,7 +314,8 @@ header {
     background:#f26c4f;
 }
 
-    .logo a:after {
+    .logo a:after,
+    .feature-txt:after{
     content: '';
         position: absolute;
         left:100%;
@@ -402,15 +404,86 @@ nav {
 
 /*Social панель социальные сети */
 .social {
-    width: 300px;
+    width: auto;
     float: right;
     padding-top: 11px;
 }
 .social a {
     display: inline-block;
     margin-left: 25px;
+    padding-left:20px;
     font-size: 12px;
     text-decoration: none;
     color: #8f8f8f;
+    height:13px;
+    line-height:13px;
+    background: url("../img/social.png") no-repeat;
 }
+.social a:hover {color: #000000;}
 .social a:first-child {margin-left: 0;}
+.social .tw {background-position: 0 0;}
+.social .fb {background-position: 0 -13px;}
+.social .rss {background-position: 0 -26px;}
+.social .mail {background-position: 0 -39px;}
+
+/*FEATURE  настройка панели*/
+.feature-img {
+    position: relative;
+    float: left;
+    height:390px;
+    width:630px;
+    background-color: #f26c4f;
+    overflow: hidden;
+}
+.feature-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.feature-ds {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:360px;
+    padding: 0 25px;
+    background-color: rgba(0,0,0,.5);
+}
+.feature-ds p{
+    color: #fff;
+    font-size: 16px;
+}
+.feature-txt {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    height: 390px;
+    width: 290px;
+    border-left: 9px solid #f26c4f;
+    background-color: #373737;
+    padding: 40px 35px;
+}
+.feature-txt:after{
+    position: absolute;
+        left:0;
+        top: 25%;
+}
+.feature-txt h4 {
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+    margin-bottom:15px;
+}
+.feature-txt p {
+    font-weight: normal;
+    font-size: 12px;
+    color: #8e8e8e;
+    margin: 0;
+}
+
+.clock {
+    display: inline-block;
+    font-size: 12px;
+    color: #8e8e8e;
+    padding-left:20px;
+    background: url("../img/clock2 .png") no-repeat left center;
+}
