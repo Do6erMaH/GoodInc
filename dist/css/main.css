@@ -97,7 +97,9 @@ textarea {
 
 div {box-sizing:border-box;}
 .text-right {text-align: right;}
-
+.right {
+    float: right;
+}
 
 
 
@@ -430,8 +432,8 @@ nav {
 .feature-img {
     position: relative;
     float: left;
-    height:390px;
-    width:630px;
+    height:380px;
+    width:615px;
     background-color: #f26c4f;
     overflow: hidden;
 }
@@ -456,8 +458,8 @@ nav {
     position: relative;
     box-sizing: border-box;
     float: left;
-    height: 390px;
-    width: 290px;
+    height: 380px;
+    width: 305px;
     border-left: 9px solid #f26c4f;
     background-color: #373737;
     padding: 40px 35px;
@@ -487,3 +489,61 @@ nav {
     padding-left:20px;
     background: url("../img/clock2 .png") no-repeat left center;
 }
+
+/*Articles настройка блока*/
+
+#Articles {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.Articles-img {
+    float: left;
+    width: 296px;
+    height: 380px;
+    background: #ffffff;
+    border-bottom:1px solid #9e9c9c;
+    margin-right: 16px;
+}
+.Articles-img:last-child{margin-right: 0;}
+.img {overflow: hidden; position: relative;}
+.Articles-img  img {
+    width: 296px;;
+     height: 190px;
+}
+.zoom {
+    position: absolute;
+    top:0;
+    right:-1px;
+    width: 80px;
+    height: 80px;
+    text-align: right;
+    padding-top:15px;
+    padding-right:8px;
+    background: url("../img/atricle_q.png") no-repeat;
+}
+.zoom a {
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Текст Article*/
+.Articles-img .art-futear {
+    padding: 20px 25px;
+}
+h3.title {
+    font-weight: Bold;
+    font-size: 25px;
+    color: #4f4f4f;
+    line-height:35px;
+    margin: 0;
+   }
+h3.title a {color:#4f4f4f;text-decoration: none; }
+h3.title a:hover {color:#272121}
+.Articles-img p {
+    font-weight: normal;
+    font-size: 12px;
+    color: #4f4f4f;
+    }
