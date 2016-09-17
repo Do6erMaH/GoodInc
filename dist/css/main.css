@@ -100,7 +100,10 @@ div {box-sizing:border-box;}
 .right {
     float: right;
 }
-
+.left {
+    float: left;
+}
+a {text-decoration: none;}
 
 
 
@@ -547,3 +550,148 @@ h3.title a:hover {color:#272121}
     font-size: 12px;
     color: #4f4f4f;
     }
+/*MIDDLE Настройка*/
+.sidebar {
+    width: 296px;
+}
+.content {
+margin-right: 311px;
+}
+.news-bl {
+    color: #fff;
+    background: #373737;
+    height: 600px;
+}
+.news-bl a img { height: 295px; width: 296px}
+.news-bl h3{ margin: 15px 20px;}
+.news-bl p {margin: 0 20px 40px 20px;}
+.news-bl h3.title a { color: #fff;}
+.news-bl h3.title a:hover { color: #ccc;}
+
+
+/*news-item настройка блока*/
+.news-item {
+    background: #ffffff;
+    padding: 30px 40px 20px 15px;
+    border-left: 5px solid #f26c4f;
+    border-bottom:1px solid #9e9c9c;
+    margin-bottom: 14px;
+}
+.news-item.min  {padding: 15px 40px 10px 15px;}
+.news-item.smol {padding: 10px 40px 10px 15px;}
+
+.news-item.active {
+    background: #f26c4f;
+    border-color: #ce4e32;
+}
+
+.title-news {
+    margin: 0 0 10px 0;
+    font-weight: Bold;
+    color:#474747 ;
+}
+h4.title-news{ font-size:24px ;}
+.title-news a {color:inherit;}
+.news-item.smol .title-news {
+    font-size:17px;
+    margin: 0;
+}
+
+.news-item .info-news {
+    color:#707070;
+    line-height: 21px;
+    font-size:14px;
+    margin: 0;
+}
+
+/*Panel настройка блока*/
+.news-panel {
+    margin-bottom: 10px;
+    font:10px Tahoma, sans-serif;
+    color: #8f8f8f;
+}
+
+.news-panel span {
+    display: inline-block;
+    vertical-align: middle;
+    }
+.dil {
+    margin: 0 25px;
+    width: 1px;
+    height: 21px;
+    background:#dfdfdf;
+}
+.news-item.active a,
+.news-item.active .news-panel,
+.news-item.active .title-news,
+.news-item.active .info-news {color: #fff;}
+
+.n-ret {
+    width: 60px;
+    margin-right: 15px;
+}
+.n-ret span {
+    vertical-align: middle;
+    height: 14px;
+    background: url("../img/Shape.png") repeat-x;
+}
+.news-item.active .n-ret span {
+    background: url("../img/Shape-w.png") repeat-x;
+}
+
+
+/*more-plus настройка понели*/
+.more-plus span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.more {
+   text-align: center;
+}
+.more .reade-more {
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.more .reade-more a{color:#bdbdbd }
+.more .reade-more a:hover {color:#636161;}
+
+.plus{
+    position: relative;
+    width: 20px;
+}
+ .plus span {
+   margin-left: 294.5px;
+     height: 20px;
+     background: url("../img/plus.png") no-repeat;
+}
+
+ /*recent-post настройка понели*/
+.recent-posts {
+    width: 296px;
+    padding: 0 20px;
+}
+.posts {
+    margin-bottom: 0;
+    color: #fff;
+    height: auto;
+}
+.posts.border{border-bottom:1px solid #d9d9d9;}
+.post.bord {border-bottom:1px solid #d9d9d9;}
+.posts  h3{ margin: 20px 0;
+font-size: 17px;
+    line-height: 25px;
+}
+.posts  p {margin: 0 0 15px 0;
+    color: #474747;
+    font-size: 12px;
+}
+.posts  h3.title a { color: #474747;}
+.posts  h3.title a:hover { color: #ccc;}
+.recent-posts span.post-date {
+    color: #474747;
+    margin-left: 20px;
+}
+
+
